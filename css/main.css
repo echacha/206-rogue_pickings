@@ -85,6 +85,11 @@ header nav ul li a{
 }
 
 /*The widths are in a percentage!*/
+
+.top-section {
+	border-top: 3px solid #77a466;
+}
+
 .top-section,
 .bottom-section {
 	margin: 0 auto;
@@ -118,7 +123,7 @@ header nav ul li a{
 	padding: 0;
 	font-size: 1em;
 	line-height: 1.6em;
-	text-align: center;
+	text-align: left;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -127,24 +132,22 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
 	border-top: 1px solid #eee;
-	
 }
 
 .section-one h3 {
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
-.section-two h3,
-.section-three h3 {
+.section-two h3 {
 	padding: 10px 30px;
 }
+
+.section-three h3 {
+	padding: 10px 0px;
+	text-align: left;
+}
+
 
 .menu {
 	list-style: none;
@@ -168,6 +171,7 @@ header nav ul li a{
 .address {
 	font-size: 1em;
 	line-height: 24px;
+	padding-left: 0px;
 }
 
 /*The widths are in a percentage!*/
