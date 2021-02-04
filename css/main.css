@@ -5,7 +5,6 @@ html {
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1em;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,7 +13,6 @@ body {
 .container{
 	max-width: 1200px;
 	width: 90%;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -39,9 +37,9 @@ h3 {
 }
 
 p {
-	font-size: 14px;
+	font-size: .9em;
 	line-height: 21px;
-    padding: 0 30px;
+
 }
 
 /*The widths are in a percentage!*/
@@ -75,7 +73,7 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: .9em;
 	padding: 10px 10px;
 	display: flex;
 	justify-content: center;
@@ -98,21 +96,14 @@ header nav ul li a{
 
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	flex-flow: column;
 }
 
-.main-image {
-
-}
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-
-}
 .main-title h2 {
 	text-align: left;
 	padding: 5px 0;
@@ -141,14 +132,10 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-.section-two h3 {
-	padding: 10px 30px;
-}
-
 .section-three h3 {
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
-
 
 .menu {
 	list-style: none;
@@ -165,19 +152,21 @@ header nav ul li a{
 
 .reviews {
 	color: #333;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 21px;
 }
 
 .address {
 	font-size: 1em;
 	line-height: 24px;
+	padding-bottom: 20px;
 }
 
 /*The widths are in a percentage!*/
 footer {
 	border-top: 3px solid #eee;
 	margin: 0 auto;
+	padding-top: 20px;
 	text-align: center;
 
 	display: flex;
