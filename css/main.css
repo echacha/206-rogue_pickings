@@ -219,6 +219,9 @@ footer span {
 header {
 	display: flex;
 	justify-content: space-between;
+	display: inline-block;
+	margin-top: 15px;
+
 }
 
 header h1 {
@@ -226,12 +229,14 @@ header h1 {
 	padding: 0px;
 	border-bottom: none;
 	text-align: left;
+	display: inline-block;
   }
 
 
 header nav {
 	width: 40%;
 	padding: 0;
+	display: inline-block;
 }
 
 header nav ul {
